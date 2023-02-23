@@ -2,11 +2,12 @@ package Self_Practice.Sliding_Window;
 
 public class Kartik_String {
     public static void main(String[] args) {
-        String str="bbbabbaab";
+        String str="abbab";
         int k=2;
         int flipa=maxlengthSubStr(str,k,'a');
         int flipb=maxlengthSubStr(str,k,'b');
         System.out.println(Math.max(flipa,flipb));
+
     }
     public static int maxlengthSubStr(String que,int k,char ch){
         int si=0;
